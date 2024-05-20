@@ -5,6 +5,7 @@ library(tidyr)
 library(class)
 library(caTools)
 library(tibble)
+
 housing_data = read.csv("HousingData.csv")
 
 str(housing_data)
